@@ -31,4 +31,15 @@ int main() {
     return 0;
 }
 
+int suma() {
+    int a,b,resultado;
+    printf("Introduce a");
+    scanf("%d",&a);
+    printf("Introduce b");
+    scanf("%d",&b);
+    resultado = a + b;
+    printf("El resultado es %d\n", resultado);
+    return 1;
+}
+
 
