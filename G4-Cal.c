@@ -4,7 +4,7 @@
 void suma();
 void resta();
 void multiplicacion();
-void Division();
+void division();
 
 int main() {
     int opcion;
@@ -31,15 +31,24 @@ int main() {
     return 0;
 }
 
-int suma() {
+void suma() {
     int a,b,resultado;
-    printf("Introduce a");
+    printf("Introduce a: ");
     scanf("%d",&a);
-    printf("Introduce b");
+    printf("Introduce b: ");
     scanf("%d",&b);
     resultado = a + b;
     printf("El resultado es %d\n", resultado);
-    return 1;
+}
+
+void resta() {
+    int a,b,resultado;
+    printf("Introduce a: ");
+    scanf("%d",&a);
+    printf("Introduce b: ");
+    scanf("%d",&b);
+    resultado = a - b;
+    printf("El resultado es %d\n", resultado);
 }
 
 
